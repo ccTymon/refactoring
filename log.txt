@@ -1,3 +1,6 @@
-2c806c2 (HEAD -> main) Task 1.1
-91c9892 (origin/main, origin/HEAD) 1
+5357580 (HEAD -> main, origin/main, origin/HEAD) Task 2.1 done
+2831f14 Task 2.1
+3389b72 Task 1.2
+2c806c2 Task 1.1
+91c9892 1
 6712e93 Initial commit
