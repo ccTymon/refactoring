@@ -48,12 +48,12 @@ public class StatementPrinter {
         int result = 0;
         for (Performance p : invoice.getPerformances()) {
             // add volume credits
-            result += getTotalVolumeCredits(p);
+            result += getVolumeCredits(p);
         }
         return result;
     }
 
-    private int getTotalVolumeCredits(Performance performance) {
+    private int getVolumeCredits(Performance performance) {
         int result = 0;
         result += Math.max(performance.getAudience() - Constants.BASE_VOLUME_CREDIT_THRESHOLD, 0);
         // add extra credit for every five comedy attendees
